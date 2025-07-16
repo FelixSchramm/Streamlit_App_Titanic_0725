@@ -24,7 +24,7 @@ The application is divided into three main sections:
 
 1.  **Clone the repository:**
     ```bash
-    git clone <your-repository-url>
+    git clone <git@github.com:FelixSchramm/Streamlit_App_Titanic_0725.git>
     cd <your-repository-folder>
     ```
 
