@@ -14,7 +14,7 @@ The data for this project comes from the **"Titanic: Machine Learning from Disas
 * **Matplotlib & Seaborn**: For data visualization and plotting the confusion matrix.
 
 ### Key Findings
-The project successfully developed a classification model using **Logistic Regression**. The app's final model achieved an accuracy of **77.27%** on the test dataset. The application provides a visual confusion matrix and a detailed classification report to help understand the model's performance on different classes (survived vs. not survived).
+The project successfully developed a classification model using **various Regression Models**. The app's final models achieved accuracies between **77% and 85%** on the test dataset. The application provides a visual confusion matrix and a detailed classification report to help understand the model's performance on different classes (survived vs. not survived).
 
 ### Deployed App
 https://titanic-predication-model.streamlit.app/ 
