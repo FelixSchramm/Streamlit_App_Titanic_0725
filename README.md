@@ -1,47 +1,32 @@
-# Titanic Survival Prediction - Streamlit App
+# Titanic Survival Prediction
 
-This project is an interactive web application built with Streamlit to analyze and predict the survival of passengers on the Titanic.
+### Problem Statement
+The goal of this project is to build a machine learning model to predict who survived the Titanic disaster. The application guides users through the process of data exploration, model training, and evaluation for this classic classification problem.
 
-## Features
+### Data Source
+The data for this project comes from the **"Titanic: Machine Learning from Disaster"** competition on Kaggle. The dataset consists of two main files: `train.csv`, used for training the model, and `test.csv`, used for making predictions.
 
-The application is divided into three main sections:
+### Tech Stack
+* **Python**: The core programming language used for the project.
+* **Streamlit**: Used to build the interactive web application.
+* **Pandas & NumPy**: For data manipulation and numerical operations.
+* **Scikit-learn**: The machine learning library used to build the Logistic Regression model.
+* **Matplotlib & Seaborn**: For data visualization and plotting the confusion matrix.
 
-1.  **Exploration:**
-    * Displays the raw data and basic information such as dataset shape and statistical summaries.
-    * Provides an option to show the sum of missing values per column.
+### Key Findings
+The project successfully developed a classification model using **Logistic Regression**. The app's final model achieved an accuracy of **77.27%** on the test dataset. The application provides a visual confusion matrix and a detailed classification report to help understand the model's performance on different classes (survived vs. not survived).
 
-2.  **Data Visualization:**
-    * Visualizations for the distribution of demographic features (Gender, Class, Age).
-    * Plots showing the relationship between various features and the survival rate.
-    * A correlation heatmap to display the relationships between numerical variables.
+### Deployed App
+https://titanic-predication-model.streamlit.app/ 
 
-3.  **Modelling:**
-    * Choose between different classification models (Random Forest, SVC, Logistic Regression).
-    * Train the selected model with the click of a button.
-    * View the results as either accuracy or a confusion matrix.
-
-## How to Run the App
-
-1.  **Clone the repository:**
-    ```bash
-    git clone <git@github.com:FelixSchramm/Streamlit_App_Titanic_0725.git>
-    cd <your-repository-folder>
-    ```
-
-2.  **Install dependencies:**
-    Make sure you have a `requirements.txt` file with the following content, then run the command:
-    ```
-    streamlit
-    pandas
-    numpy
-    matplotlib
-    seaborn
-    scikit-learn
+### How to Run
+1.  Ensure you have Python installed.
+2.  Install the required libraries from the `requirements.txt` file using the following command:
     ```bash
     pip install -r requirements.txt
     ```
-
-3.  **Start the Streamlit app:**
+3.  Run the Streamlit application from your terminal with this command:
     ```bash
     streamlit run streamlit_app.py
     ```
+4.  The app will open automatically in your web browser, allowing you to interact with the survival prediction model.
