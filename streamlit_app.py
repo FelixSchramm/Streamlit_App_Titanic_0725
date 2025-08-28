@@ -19,7 +19,7 @@ def load_data():
 
 df = load_data()
 
-st.title("Titanic : binary classification project")
+st.title("Titanic: Binary Classification Project")
 st.sidebar.title("Table of contents")
 pages=["Exploration", "DataVizualization", "Modelling"]
 page=st.sidebar.radio("Go to", pages)
